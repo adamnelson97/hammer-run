@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <title> Hammer Run </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="hammerRun.css">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="HighscoreAPI/highscore.css">
+  <script src="HighscoreAPI/HighscoreAPI.js"></script>
+</head>
+
+<body>
+  <h1 class="flash" id="pageTitle"> Hammer Run </h1>
+  <canvas id="gameArea" width="500" height="500" style="border:1px solid #000000;"></canvas>
+
+  <div id="wrapper">
+    <button type="button" onclick="startGame()" style="background-color:#00ff66;"> Start Game </button>
+    <button type="button" onclick="stopGame()" style="background-color:red;"> Stop Game </button>
+  </div>
+
+  <div id="highdiv">
+    <table id="hightable">
+      <tr>
+        <th>User</th>
+        <th>Score</th>
+      </tr>
+    </table>
+    <table id="myhightable">
+      <tr>
+        <th>Your High Score</th>
+      </tr>
+      <tr id="myhighscore">
+        <td>You don't have one yet!</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div id="credits">
+	<p>Hammer run created by the Warriors Three:</p>
+	<p>Kepler Novotny | Ross Lannen | Adam Nelson</p>
+  </div>
+
+  <script src="hammerRun.js" onload="drawGameArea()"></script>
+</body>
+
+</html>
