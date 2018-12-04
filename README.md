@@ -1,5 +1,6 @@
 # Hammer Run 
 **Hammer Run** is an infinite running game where the goal is to smash as many goblins as possible standing in your hero's path while staying alive. The tricky part is, he first has to find a hammer!
+[Click me to play!](http://htmlpreview.github.com/?https://github.com/adamnelson97/hammer-run/index.html)
 
 ## Basic Game Description
 The game starts with 5 lanes that your hero may jump between while running. As he runs, he will encounter evil goblins standing in the lanes. Without a hammer, running into the goblins will cost him a life! But every once in a while, your hero will find a hammer. Picking up the hammer will give him the ability to smash any goblin he touches, and steal their money. But beware, the hammer will break after a short while, so attack quickly. As the player progresses, the game will progress with it making the game more challenging and rewarding as the hero lives on.
